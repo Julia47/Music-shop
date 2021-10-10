@@ -1,0 +1,212 @@
+
+body {
+      background: linear-gradient(to top right,  #594F4F, #547980, #45ADA8, #9DE0AD, #E5FCC2 );
+      /*background: linear-gradient(to top right, #d9a7c7, #fffcdc);*/
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Hammersmith One', sans-serif;
+      /*font-family: system-ui;*/
+      font-size: 100%;
+      color: #333;
+      margin: 4% 8% 4% 8%;
+
+     /* color: #5D4157; */
+}
+
+.buy{
+     padding: 2.2%;
+     text-align: center;
+     float: right;
+     color: #f2f2f2;
+     background-color: #333;
+}
+
+.buy:hover{
+      background-color: #d9a7c7;
+}
+
+.topnav {
+      margin:0%;
+      overflow: hidden;
+      background-color: #333;
+}
+
+.topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+}
+
+.topnav a:hover {
+      background-color: #d9a7c7;
+      color: black;
+}
+
+.name_alb{
+      color: #444;
+}
+
+.topnav a.name {
+      text-align: right;
+      float: right;
+      color: #d9a7c7;
+}
+
+.topnav a.name:hover {
+      text-align: right;
+      float: right;
+      background-color: #333;
+}
+
+
+.test{
+
+ text-align: center;
+      margin: 4% 8% 4% 8%;
+      font-family: 'Hammersmith One', sans-serif;
+      margin: 1% 0% 0% 0%;
+      background: rgba(51, 51, 51, 0.1);
+      display:flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+}
+
+
+h2{
+ color:#444;
+}
+
+h3{
+color:#444;
+margin: 1%;
+}
+h4{
+   margin: 3%;
+}
+p{
+ font-size: 16pt;
+}
+
+a{
+
+     color: #5D4157;
+     text-decoration: none;
+}
+
+a:hover {
+      color: #547980;
+}
+
+.block{
+      background-color:  #6b6b83;
+}
+
+.main-form{
+
+      display:flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.add{
+      width: 60%;
+}
+
+.edit-form{
+      margin: 5%;
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+}
+
+input[type=text]{
+      background-color: transparent;
+      width: 80%;
+      font-size: 130%;
+      margin: 4% 0% 4% 0%;
+      border: 1px solid #333;
+}
+
+
+input[type=password]{
+      width: 80%;
+      font-size: 130%;
+      margin: 4% 0% 4% 0%;
+      background-color: transparent;
+      border: 1px solid #333;
+}
+
+input[type=button]{
+
+      font-size: 84%;
+      width: 13%;
+      padding: 1% 0% 1% 0%;
+      margin: 1% 1% 1% 0%;
+      background-color: transparent;
+      transition: all .5s ease;
+      border: 1px solid transparent;
+      margin-right: 10px;
+      border-color: #333;
+      color: #333;
+
+}
+
+input[type=button]:hover{
+      background-color: #547980;
+      border-color: #333;
+      color: white;
+}
+
+input[type=checkbox] {
+     margin: 1%;
+     position: relative;
+     cursor: pointer;
+}
+
+input[type=checkbox]:before {
+     content: "";
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     top: 0;
+     left: 0;
+     border: 1px solid #5D4157;
+     background-color: #d9a7c7;
+}
+
+input[type=checkbox]:checked:after {
+     content: "";
+     display: block;
+     width: 5px;
+     height: 10px;
+     border: solid #5D4157;
+     border-width: 0 2px 2px 0;
+     -webkit-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     transform: rotate(45deg);
+     position: absolute;
+     top: 2px;
+     left: 6px;
+}
+
+.select-band {
+      background-color: #d9a7c7;
+      color: #5D4157;
+      margin: 1%;
+      padding: 2%;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class = form-images>
+
+<!--    <h1>Hello, {{name}}</h1>-->
+<!--    <hr>-->
+
+    {% block content %}{% endblock %}
+
+    <div id = "images">
+    </div>
+
+    <div id="myModal" class="modal">
+      <div id="addImg" class="modal-body">
+      </div>
+    </div>
+    <div id="form"></div>
+    <div id="filter"></div>
+    <div id="choose_table"></div>
+    <div id="table"></div>
+    <div id="add" class="add"></div>
+    <div id="show_bands"></div>
+    <div id="show_albums"></div>
+    <div><label id="error"></label></div>
+    </div>
+     {% if per == 'admin' %}
+     <script src="/static/js/admin.js"></script>
+     {% endif %}
+     {% if per == 'servicer' %}
+     <script src="/static/js/servicer.js"></script>
+     {% endif %}
+     {% if per == 'user' %}
+     <script src="/static/js/user.js"></script>
+     {% endif %}
+    <script src="/static/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    <div class = "edit-form" >
+        <div><label >Login</label></div>
+           <div><input type="text" placeholder="Login" id="login" value="{{ usernow.login }}"></div>
+        <div><label >Password</label></div>
+            <div><input type="password" placeholder="Password" id="password" value="{{ usernow.password }}"></div>
+        <div><label >Nickname</label></div>
+            <div><input type="text" placeholder="Nickname" id="nickname" value="{{ usernow.nickname }}"></div>
+        <div><label >Firstname</label></div>
+            <div><input type="text" placeholder="Firstname" id="firstname" value="{{ usernow.firstname }}"></div>
+        <div><label >Lastname</label></div>
+           <div><input type="text" placeholder="Lastname" id="lastname" value="{{ usernow.lastname }}"></div>
+<!--        <div><label >Permission</label></div>-->
+<!--            <div><input type="text" placeholder="Permission" id="permission" value="{{ usernow.permission }}"></div>-->
+        <div><label >Age</label></div>
+          <div><input type="text" placeholder="Age" id="age" value="{{ usernow.age }}"></div>
+         <div><label >Permission</label></div>
+        <div><select id="select_per" class="select-band">
+          <option>user</option>
+          <option>admin</option>
+          <option>servicer</option>
+        </select>
+        </div>
+        <div><br></div>
+        <input type="button" class="edit"  value="Save"  onclick="return save()">
+        <label id="error"></label>
+    </div>
+</form>
+<script src="/static/js/edit.js"></script>
+</body>
+</html>
