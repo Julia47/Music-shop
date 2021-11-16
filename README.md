@@ -2,11 +2,13 @@
 
 Web application for buing music albums with different types of profile: admin,servicer,user. 
 
+#### User
 
-#### Admin
+1.  The user can view all albums
+2.  He can add albums to backet.
+3.  The user can view albums that have been confirmed by the seller (service).
 
-The administrator can add a user, also configure profiles, edit user information, delete users. Only an administrator can do this. 
-
+![alt text](https://github.com/Julia47/music-shop/blob/main/WEB2(4)/app/resources/user.png)
 
 #### Servicer
 
@@ -17,10 +19,15 @@ Servicer is seller, he can:
 3.  He can view userss' "purchase request"
 
 
-#### User
+![alt text](https://github.com/Julia47/music-shop/blob/main/WEB2(4)/app/resources/servicer.png)
 
-1.  The user can view all albums
-2.  He can add albums to backet.
-3.  The user can view albums that have been confirmed by the seller (service).
+#### Admin
+
+The administrator can add a user, also configure profiles, edit user information, delete users. Only an administrator can do this. 
+
+![alt text](https://github.com/Julia47/music-shop/blob/main/WEB2(4)/app/resources/admin.png)
+
+
+
 
 https://github.com/Julia47/music-shop/blob/main/music-shop.mp4
