@@ -1,6 +1,6 @@
 # music-shop
 
-Web application for buing music albums with different types of profile: admin,servicer,user. 
+Python Flask app for buing music albums with different types of profile: admin,servicer,user. 
 
 #### User
 
